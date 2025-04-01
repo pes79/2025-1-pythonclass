@@ -31,7 +31,7 @@
 
 # 프로젝트 1 : 파이 값 구하기
 파이 값을 구하고 그래프로 그림
-![img.png](img.png)
+![Untitled.webp](Untitled.webp)
 
 ```
 p=1
@@ -47,4 +47,4 @@ import matplotlib.pyplot as plt
 plt.plot (pilist)
 plt.show()
 ```
-![img_1.png](img_1.png)
+![fdfd.png](fdfd.png)
