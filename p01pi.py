@@ -12,20 +12,18 @@ print(p*4)
 
 
 #루프로 변환
-
 p=1
+pilist = []
 
 for n in range(1,100):
     p = p * ((2 * n + 1) ** 2 - 1) / (2 * n + 1) ** 2
-    print(p*4)
+    #print(p*4,',')
+    pilist.append(p*4)
 
 
-
-
-
-    import matplotlib.pyplot as plt
-    plt.plot ({1,3,4})
-    plt.show()
+import matplotlib.pyplot as plt
+plt.plot (pilist)
+plt.show()
 
 import opencv
 
