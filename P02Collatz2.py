@@ -8,7 +8,7 @@ import numpy as np
 import statistics
 import time
 
-from p02Collatzfunc import collatz
+from P02Collatzfunc import collatz
 
 MAXNUM = 100
 
